@@ -1,0 +1,12 @@
+package perfecto.utils;
+
+import java.security.PublicKey;
+
+public class Utils {
+
+    public static final String securityToken =
+            "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZDM2NmJiNS01NDAyLTQ4MmMtYTVhOC1kODZhODk4MDYyZjIifQ.eyJpYXQiOjE2NjQzNjg2MzQsImp0aSI6IjRlMDQzMGMzLTZmMTUtNGE5Ni1iNTgyLTJkNDA3NGQxNGY5OCIsImlzcyI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsImF1ZCI6Imh0dHBzOi8vYXV0aDMucGVyZmVjdG9tb2JpbGUuY29tL2F1dGgvcmVhbG1zL3RyaWFsLXBlcmZlY3RvbW9iaWxlLWNvbSIsInN1YiI6IjlhZDE0ZWY3LWNiODQtNDI4YS1hOTg0LWYyNGQ5NDQ0MDJlMyIsInR5cCI6Ik9mZmxpbmUiLCJhenAiOiJvZmZsaW5lLXRva2VuLWdlbmVyYXRvciIsIm5vbmNlIjoiMDAxOTVjMDYtZmMwZC00NWYxLWJkNzctZjE0ZmM0MzJkNTc2Iiwic2Vzc2lvbl9zdGF0ZSI6IjI3MTAxYzlmLTU2MjMtNGRmNS1iN2Q4LTQ0ZTAxZDI5MzFhMSIsInNjb3BlIjoib3BlbmlkIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUgZW1haWwifQ.VsOHbJkDA5AC2BpfXCETEJ6B0Pdnmtmc4KJhaFlEb34";
+
+    public static final String hostName = "trial.perfectomobile.com";
+    public static final String URL = "https://" + hostName + "/nexperience/perfectomobile/wd/hub";
+}
